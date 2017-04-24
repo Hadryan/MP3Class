@@ -10,5 +10,5 @@ The class can also change and delete frames of the MP3 audio file and save the r
     $mp3 = new mp3;
     $mp3->cut_mp3('input.mp3', 'output.mp3', 0, -1, 'frame', false);
     
-`the 'frame' can be substituted with 'second' to base the cut on a time-frame.`
+`the 'frame' can be substituted with 'second' or 'percent' to base the cut on a time-frame or percentages of the original audio.`
 
