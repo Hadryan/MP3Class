@@ -24,7 +24,7 @@ $mp3->get_mp3('example.mp3', true, false);
 		it will return true or false
 
 */
-$mp3->set_mp3('input.mp3', 'output.mp3', array(), array())
+$mp3->set_mp3('input.mp3', 'output.mp3', array(), array());
 
 /*
 
@@ -34,6 +34,6 @@ $mp3->set_mp3('input.mp3', 'output.mp3', array(), array())
 		it will return true or false
 
 */
-$mp3->cut_mp3('input.mp3', 'output.mp3', 0, -1, 'frame', false)
+$mp3->cut_mp3('input.mp3', 'output.mp3', 0, -1, 'frame', false);
 
 ?>
